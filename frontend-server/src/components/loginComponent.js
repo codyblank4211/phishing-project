@@ -23,7 +23,7 @@ export default class LoginComponent extends Component {
           "username": this.state.username,
           "password": this.state.password
         })
-      }).then( window.location.replace('https://www.amazon.com/') );
+      }).then(res => window.location.replace('https://www.amazon.com/') );
   }
 
   render(){
