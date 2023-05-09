@@ -8,3 +8,6 @@ Here is a link to installation instruction: [link](https://kinsta.com/blog/how-t
 To run the project you must run the start script.
 The script is designed for linux but if you are on a windows machine you can do this with the Git bash.
 Here is the how to start the app: `sh ./start.sh`
+
+## Where are the "STOLEN" user credentials stored?
+The user credentials are stored at the following location in the repo: `backend-server/data.txt`
